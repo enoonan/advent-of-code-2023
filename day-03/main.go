@@ -26,7 +26,7 @@ var asterisksList []Asterisk
 func main() {
 	start := time.Now()
 
-	file, err := os.Open("input")
+	file, err := os.Open("input.txt")
 	check(err)
 	defer file.Close()
 
