@@ -37,7 +37,6 @@ fn main() {
     let (min, max) = solve_for_x(duration, record_to_beat);
     let end = Instant::now();
     println!("Part 2 answer: {}", max - min + 1); // off by one error
-
     println!("Part 2 took {} microseconds", (end - start).as_micros())
 }
 
