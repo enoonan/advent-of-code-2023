@@ -3,8 +3,10 @@ use std::cmp::Ordering;
 use std::collections::HashMap;
 use std::fmt;
 use std::fs::read_to_string;
+use std::time::Instant;
 
 fn main() {
+    let start = Instant::now();
     let file_name = "input.txt";
     let mut result = Vec::new();
 
@@ -13,6 +15,8 @@ fn main() {
     }
 
     part1(&result);
+    let end = Instant::now();
+    println!("Part 1 took {} milliseconds", (end - start).as_millis());
     part2(&result);
     // print!("{:?}", result);
 }

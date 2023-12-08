@@ -1,8 +1,10 @@
 use itertools::Itertools;
 use std::cmp::Ordering;
 use std::fs::read_to_string;
+use std::time::Instant;
 
 fn main() {
+    let start = Instant::now();
     let card_types = vec![
         "2", "3", "4", "5", "6", "7", "8", "9", "T", "J", "Q", "K", "A",
     ];
@@ -48,8 +50,9 @@ fn main() {
         .enumerate()
         .map(|(index, hand)| (index as i32 + 1) * hand.2)
         .sum();
-
+    let end = Instant::now();
     println!("Part 1: {}", score);
+    println!("Ran in {} milliseconds", (end - start).as_millis());
 }
 
 fn hand_type(hand_vals: &Vec<&usize>) -> i32 {

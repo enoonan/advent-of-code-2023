@@ -30,3 +30,5 @@ My solution was ugly (though I learned much about rust enums and structs) and af
 
 I know it's sort of cheating 😅!
 I do not care though, for I am learning good things 😌
+
+Worth pointing out - the fugly solution with structs and enums? Runs about 5 times faster than the second crack. My guess is that it has to do with the Ord and Partial Ord implementations for HandTypes and CardList 🤔
