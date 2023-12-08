@@ -23,3 +23,7 @@ I probably could have brute forced this one and done it a lot faster but I knew 
 Sticking with Rust 🦀. In general, the most time consuming thing is fighting with the borrow checker. I could do these a lot faster in Go (or JS or Python or PHP...).
 
 This was a fun one to do in Rust though! Learned a ton about Enums and sorting. Part 2 wasn't a great leap at all from my Part 1 code. I just had to set the value of J to 0 and add a bunch of futzy conditional logic to determine the hand type. I am sure there are more elegant ways to accomplish that but I'm ok with this.
+
+## Day 7 attempt No. 2 🦀
+
+My solution was ugly (though I learned much about rust enums and structs) and after seeing a bunch of other approaches I decided to take another crack at Part 1. I wanted to see how fluent I could get with chaining methods together, and I wanted to take advantage of the functional features of rust. I much prefer this answer but of course I only reached it after seeing others' solutions.
