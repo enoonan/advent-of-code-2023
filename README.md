@@ -27,3 +27,6 @@ This was a fun one to do in Rust though! Learned a ton about Enums and sorting. 
 ## Day 7 attempt No. 2 🦀
 
 My solution was ugly (though I learned much about rust enums and structs) and after seeing a bunch of other approaches I decided to take another crack at Part 1. I wanted to see how fluent I could get with chaining methods together, and I wanted to take advantage of the functional features of rust. I much prefer this answer but of course I only reached it after seeing others' solutions.
+
+I know it's sort of cheating 😅!
+I do not care though, for I am learning good things 😌

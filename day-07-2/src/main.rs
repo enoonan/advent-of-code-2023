@@ -20,7 +20,7 @@ fn main() {
                         .filter(|c| c.len() > 0)
                         .counts()
                         .values()
-                        .sorted_by(|a, b| b.cmp(a))
+                        .sorted_by(|a, b| b.cmp(a)) // reverse sort
                         .collect::<Vec<&usize>>(),
                 ),
                 hand.chars().into_iter().map(|card| {
