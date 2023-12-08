@@ -41,7 +41,7 @@ fn main() {
                 let b1_val = b.1.clone().nth(index).unwrap();
                 if card != b1_val {
                     return card.cmp(&b1_val);
-                }
+                } // if they _are_ equal, continue iterating until we find a pair that aren't
             }
             return Ordering::Equal;
         })
