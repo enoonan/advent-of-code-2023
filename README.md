@@ -32,3 +32,11 @@ I know it's sort of cheating 😅!
 I do not care though, for I am learning good things 😌
 
 Worth pointing out - the fugly solution with structs and enums? Runs about 5 times faster than the second crack. My guess is that it has to do with the Ord and Partial Ord implementations for HandTypes and CardList 🤔
+
+## Day 8 🦀
+
+This one took me a while. I needed to get a hint and that hint was "least common multiple".
+
+I had actually thought of that early on but I discarded the idea out of hand because it seemed to me that there was no reason to think the number of instructions would line up with the total number of nodes in a given A-Z path, such that the would reliably repeat.
+
+My brain still rebels against it - if there are 100 instructions, and it takes 98 steps to get from A to Z, then when you repeat you start back at A from the 99th instruction, which should change the entire trajectory. So I don't understand why this works and that bugs the hell out of me but I'm moving on.
