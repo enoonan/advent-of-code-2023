@@ -40,3 +40,9 @@ This one took me a while. I needed to get a hint and that hint was "least common
 I had actually thought of that early on but I discarded the idea out of hand because it seemed to me that there was no reason to think the number of instructions would line up with the total number of nodes in a given A-Z path, such that the would reliably repeat.
 
 My brain still rebels against it - if there are 100 instructions, and it takes 98 steps to get from A to Z, then when you repeat you start back at A from the 99th instruction, which should change the entire trajectory. So I don't understand why this works and that bugs the hell out of me but I'm moving on.
+
+## Day 9 🦀
+
+Ok I am very happy with how quickly I was able to solve this one. I got it on the first try in both cases. I actually didn't think my pt2 answer looked right but then I plugged it in and lo and behold, it was.
+
+I'm gaining facility in Rust as well as recursion! Woo hoo!
